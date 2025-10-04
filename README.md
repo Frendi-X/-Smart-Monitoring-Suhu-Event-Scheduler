@@ -7,8 +7,8 @@ Alat ini dirancang untuk memantau suhu secara real-time sekaligus memberikan pen
 
 ## ⚙️ Fitur Utama
 - **Monitoring Suhu DS18B20**
-  - < 40 °C → Relay OFF  
-  - > 50 °C → Relay ON  
+  - **< 40 °C** → Relay OFF  
+  - **> 50 °C** → Relay ON  
   - 40–50 °C → Relay tetap, dengan notifikasi kondisi **NORMAL** terkirim sekali.
 - **Mode Operasi**
   - **AUTO** → mengikuti waktu nyata dari RTC DS1307.  
