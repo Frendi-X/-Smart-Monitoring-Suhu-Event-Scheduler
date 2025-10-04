@@ -1,5 +1,7 @@
 # 🌡️ Smart Monitoring & Event Scheduler
 
+![Telegram Display](https://github.com/Frendi-X/Smart-Monitoring-Suhu-Event-Scheduler/blob/main/picture/TELEGRAM%20Display.jpg)  
+
 Proyek ini merupakan sistem monitoring suhu dan pengendalian event berbasis Arduino yang dilengkapi dengan sensor DS18B20, RTC, LCD I2C, DFPlayer Mini, dan relay. Alat ini dapat bekerja dalam dua mode, yaitu Auto yang mengikuti waktu nyata dari RTC dan Simulasi yang memungkinkan perhitungan hari secara manual. Sistem mampu memantau suhu, mengendalikan relay secara otomatis sesuai ambang batas suhu, serta menampilkan informasi waktu, suhu, mode, dan status pada LCD. Selain itu, terdapat event otomatis yang terjadwal, yaitu BALIK pada hari ke-3 dan PANEN pada hari ke-6 setelah sistem direset, dengan notifikasi suara dari DFPlayer serta pengiriman data melalui komunikasi serial. Tiga tombol kontrol digunakan untuk mengatur mode, simulasi hari, dan reset sistem, sehingga alat ini dapat berfungsi sebagai pengingat kegiatan berbasis waktu sekaligus pemantau kondisi suhu secara real-time.
 
 ---
